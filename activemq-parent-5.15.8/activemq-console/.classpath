@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/classes" path="target/generated-sources/proto">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**/*.java" kind="src" path="target/maven-shared-archive-resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="/activemq-kahadb-store"/>
+	<classpathentry kind="src" path="/activemq-broker"/>
+	<classpathentry kind="src" path="/activemq-client"/>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar" sourcepath="M2_REPO/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.jar" sourcepath="M2_REPO/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/fusesource/hawtbuf/hawtbuf/1.11/hawtbuf-1.11.jar" sourcepath="M2_REPO/org/fusesource/hawtbuf/hawtbuf/1.11/hawtbuf-1.11-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/geronimo/specs/geronimo-j2ee-management_1.1_spec/1.0.1/geronimo-j2ee-management_1.1_spec-1.0.1.jar" sourcepath="M2_REPO/org/apache/geronimo/specs/geronimo-j2ee-management_1.1_spec/1.0.1/geronimo-j2ee-management_1.1_spec-1.0.1-sources.jar"/>
+	<classpathentry kind="src" path="/activemq-openwire-legacy"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/guava/guava/18.0/guava-18.0.jar" sourcepath="M2_REPO/com/google/guava/guava/18.0/guava-18.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/fasterxml/jackson/core/jackson-databind/2.9.6/jackson-databind-2.9.6.jar" sourcepath="M2_REPO/com/fasterxml/jackson/core/jackson-databind/2.9.6/jackson-databind-2.9.6-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/fasterxml/jackson/core/jackson-annotations/2.9.6/jackson-annotations-2.9.6.jar" sourcepath="M2_REPO/com/fasterxml/jackson/core/jackson-annotations/2.9.6/jackson-annotations-2.9.6-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/fasterxml/jackson/core/jackson-core/2.9.6/jackson-core-2.9.6.jar" sourcepath="M2_REPO/com/fasterxml/jackson/core/jackson-core/2.9.6/jackson-core-2.9.6-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/activemq/protobuf/activemq-protobuf/1.1/activemq-protobuf-1.1.jar" sourcepath="M2_REPO/org/apache/activemq/protobuf/activemq-protobuf/1.1/activemq-protobuf-1.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-net/commons-net/3.6/commons-net-3.6.jar" sourcepath="M2_REPO/commons-net/commons-net/3.6/commons-net-3.6-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/activemq/activeio-core/3.1.4/activeio-core-3.1.4.jar" sourcepath="M2_REPO/org/apache/activemq/activeio-core/3.1.4/activeio-core-3.1.4-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.2/commons-logging-1.2.jar" sourcepath="M2_REPO/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.jar" sourcepath="M2_REPO/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/xbean/xbean-spring/4.2/xbean-spring-4.2.jar" sourcepath="M2_REPO/org/apache/xbean/xbean-spring/4.2/xbean-spring-4.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/fusesource/hawtbuf/hawtbuf-proto/1.11/hawtbuf-proto-1.11.jar" sourcepath="M2_REPO/org/fusesource/hawtbuf/hawtbuf-proto/1.11/hawtbuf-proto-1.11-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-aop/4.3.18.RELEASE/spring-aop-4.3.18.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-aop/4.3.18.RELEASE/spring-aop-4.3.18.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-beans/4.3.18.RELEASE/spring-beans-4.3.18.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-beans/4.3.18.RELEASE/spring-beans-4.3.18.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-core/4.3.18.RELEASE/spring-core-4.3.18.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-core/4.3.18.RELEASE/spring-core-4.3.18.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-expression/4.3.18.RELEASE/spring-expression-4.3.18.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-expression/4.3.18.RELEASE/spring-expression-4.3.18.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar" sourcepath="M2_REPO/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/log4j/log4j/1.2.17/log4j-1.2.17.jar" sourcepath="M2_REPO/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/junit/junit/4.12/junit-4.12.jar" sourcepath="M2_REPO/junit/junit/4.12/junit-4.12-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar" sourcepath="M2_REPO/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/velocity/velocity/1.7/velocity-1.7.jar" sourcepath="M2_REPO/org/apache/velocity/velocity/1.7/velocity-1.7-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar" sourcepath="M2_REPO/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-lang/commons-lang/2.6/commons-lang-2.6.jar" sourcepath="M2_REPO/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/servicemix/bundles/org.apache.servicemix.bundles.josql/1.5_5/org.apache.servicemix.bundles.josql-1.5_5.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/jasypt/jasypt/1.9.2/jasypt-1.9.2.jar" sourcepath="M2_REPO/org/jasypt/jasypt/1.9.2/jasypt-1.9.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-daemon/commons-daemon/1.0.15/commons-daemon-1.0.15.jar" sourcepath="M2_REPO/commons-daemon/commons-daemon/1.0.15/commons-daemon-1.0.15-sources.jar"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/activemq-broker-5.15.8.jar"/>
+	<classpathentry kind="lib" path="lib/activemq-client-5.15.8.jar"/>
+	<classpathentry kind="lib" path="lib/activemq-console-5.15.8.jar"/>
+	<classpathentry kind="lib" path="lib/activemq-jaas-5.15.8.jar"/>
+	<classpathentry kind="lib" path="lib/activemq-kahadb-store-5.15.8.jar"/>
+	<classpathentry kind="lib" path="lib/activemq-openwire-legacy-5.15.8.jar"/>
+	<classpathentry kind="lib" path="lib/activemq-protobuf-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/activemq-spring-5.15.8.jar"/>
+	<classpathentry kind="lib" path="lib/activemq-web-5.15.8.jar"/>
+	<classpathentry kind="lib" path="lib/apache-el-8.0.33.jar"/>
+	<classpathentry kind="lib" path="lib/apache-jsp-8.0.33.jar"/>
+	<classpathentry kind="lib" path="lib/apache-jsp-9.2.25.v20180606.jar"/>
+	<classpathentry kind="lib" path="lib/apache-jstl-9.2.25.v20180606.jar"/>
+	<classpathentry kind="lib" path="lib/asm-5.0.4.jar"/>
+	<classpathentry kind="lib" path="lib/geronimo-annotation_1.0_spec-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/geronimo-jms_1.1_spec-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/geronimo-jta_1.0.1B_spec-1.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/hawtbuf-1.11.jar"/>
+	<classpathentry kind="lib" path="lib/jcl-over-slf4j-1.7.25.jar"/>
+	<classpathentry kind="lib" path="lib/jdom-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/jetty-all-9.2.25.v20180606.jar"/>
+	<classpathentry kind="lib" path="lib/jolokia-core-1.6.0.jar"/>
+	<classpathentry kind="lib" path="lib/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.jdt.core-3.8.2.v20130121.jar"/>
+	<classpathentry kind="lib" path="lib/rome-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="lib/spring-web-4.3.18.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-webmvc-4.3.18.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/taglibs-standard-impl-1.2.5.jar"/>
+	<classpathentry kind="lib" path="lib/taglibs-standard-spec-1.2.5.jar"/>
+	<classpathentry kind="lib" path="lib/tomcat-servlet-api-8.0.53.jar"/>
+	<classpathentry kind="lib" path="lib/tomcat-websocket-api-8.0.53.jar"/>
+	<classpathentry kind="lib" path="lib/activeio-core-3.1.4.jar"/>
+	<classpathentry kind="lib" path="lib/activemq-amqp-5.15.8.jar"/>
+	<classpathentry kind="lib" path="lib/activemq-http-5.15.8.jar"/>
+	<classpathentry kind="lib" path="lib/activemq-jdbc-store-5.15.8.jar"/>
+	<classpathentry kind="lib" path="lib/activemq-jms-pool-5.15.8.jar"/>
+	<classpathentry kind="lib" path="lib/activemq-leveldb-store-5.15.8.jar"/>
+	<classpathentry kind="lib" path="lib/activemq-log4j-appender-5.15.8.jar"/>
+	<classpathentry kind="lib" path="lib/activemq-mqtt-5.15.8.jar"/>
+	<classpathentry kind="lib" path="lib/activemq-partition-5.15.8.jar"/>
+	<classpathentry kind="lib" path="lib/activemq-pool-5.15.8.jar"/>
+	<classpathentry kind="lib" path="lib/activemq-runtime-config-5.15.8.jar"/>
+	<classpathentry kind="lib" path="lib/activemq-shiro-5.15.8.jar"/>
+	<classpathentry kind="lib" path="lib/activemq-stomp-5.15.8.jar"/>
+	<classpathentry kind="lib" path="lib/commons-beanutils-1.9.3.jar"/>
+	<classpathentry kind="lib" path="lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="lib/commons-collections-3.2.2.jar"/>
+	<classpathentry kind="lib" path="lib/commons-dbcp2-2.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="lib/commons-net-3.6.jar"/>
+	<classpathentry kind="lib" path="lib/commons-pool2-2.4.2.jar"/>
+	<classpathentry kind="lib" path="lib/geronimo-j2ee-connector_1.5_spec-2.0.0.jar"/>
+	<classpathentry kind="lib" path="lib/guava-18.0.jar"/>
+	<classpathentry kind="lib" path="lib/hawtbuf-proto-1.11.jar"/>
+	<classpathentry kind="lib" path="lib/hawtdispatch-1.22.jar"/>
+	<classpathentry kind="lib" path="lib/hawtdispatch-scala-2.11-1.22.jar"/>
+	<classpathentry kind="lib" path="lib/hawtdispatch-transport-1.22.jar"/>
+	<classpathentry kind="lib" path="lib/hawtjni-runtime-1.9.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient-4.5.6.jar"/>
+	<classpathentry kind="lib" path="lib/httpcore-4.4.10.jar"/>
+	<classpathentry kind="lib" path="lib/insight-log-core-1.2.0.Beta4.jar"/>
+	<classpathentry kind="lib" path="lib/insight-log4j-1.2.0.Beta4.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-annotations-2.9.6.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-core-2.9.6.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-databind-2.9.6.jar"/>
+	<classpathentry kind="lib" path="lib/jasypt-1.9.2.jar"/>
+	<classpathentry kind="lib" path="lib/jasypt-spring31-1.9.2.jar"/>
+	<classpathentry kind="lib" path="lib/jaxb2-basics-runtime-0.6.4.jar"/>
+	<classpathentry kind="lib" path="lib/velocity-1.7.jar"/>
+	<classpathentry kind="lib" path="lib/xbean-spring-4.2.jar"/>
+	<classpathentry kind="lib" path="lib/xpp3-1.1.4c.jar"/>
+	<classpathentry kind="lib" path="lib/xstream-1.4.10.jar"/>
+	<classpathentry kind="lib" path="lib/zookeeper-3.4.6.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-log4j12-1.7.25.jar"/>
+	<classpathentry kind="lib" path="lib/snappy-0.2.jar"/>
+	<classpathentry kind="lib" path="lib/snappy-java-1.1.2.jar"/>
+	<classpathentry kind="lib" path="lib/spring-aop-4.3.18.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-beans-4.3.18.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-context-4.3.18.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-core-4.3.18.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-expression-4.3.11.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-jms-4.3.18.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-oxm-4.3.18.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-tx-4.3.18.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/scala-library-2.11.0.jar"/>
+	<classpathentry kind="lib" path="lib/shiro-core-1.2.6.jar"/>
+	<classpathentry kind="lib" path="lib/shiro-spring-1.2.6.jar"/>
+	<classpathentry kind="lib" path="lib/org.linkedin.util-core-1.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/org.linkedin.zookeeper-impl-1.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/proton-j-0.29.0.jar"/>
+	<classpathentry kind="lib" path="lib/leveldb-0.9.jar"/>
+	<classpathentry kind="lib" path="lib/leveldb-api-0.9.jar"/>
+	<classpathentry kind="lib" path="lib/leveldbjni-1.8.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="lib/org.apache.servicemix.bundles.josql-1.5_5.jar"/>
+	<classpathentry kind="lib" path="lib/jettison-1.3.8.jar"/>
+	<classpathentry kind="lib" path="lib/jmdns-3.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/mqtt-client-1.14.jar"/>
+	<classpathentry kind="lib" path="lib/activemq-camel-5.15.8.jar"/>
+	<classpathentry kind="lib" path="lib/camel-core-2.19.5.jar"/>
+	<classpathentry kind="lib" path="lib/camel-jms-2.19.5.jar"/>
+	<classpathentry kind="lib" path="lib/camel-spring-2.19.5.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

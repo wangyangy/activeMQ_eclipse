@@ -1,0 +1,26 @@
+2019-02-26 10:30:11,628 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@3357d3a1: startup date [Tue Feb 26 10:30:11 CST 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2019-02-26 10:30:12,343 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[G:\ruanjian\develop\activemq_yuanma\activemq-parent-5.15.8\assembly\target\apache-activemq-5.15.8-bin\apache-activemq-5.15.8\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2019-02-26 10:30:13,751 | INFO  | PListStore:[G:\ruanjian\develop\activemq_yuanma\activemq-parent-5.15.8\assembly\target\apache-activemq-5.15.8-bin\apache-activemq-5.15.8\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2019-02-26 10:30:13,918 | INFO  | Apache ActiveMQ 5.15.8 (localhost, ID:ma-PC-13422-1551148213761-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2019-02-26 10:30:13,939 | INFO  | Listening for connections at: tcp://ma-PC:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2019-02-26 10:30:13,941 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2019-02-26 10:30:13,946 | INFO  | Listening for connections at: amqp://ma-PC:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2019-02-26 10:30:13,949 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2019-02-26 10:30:13,954 | INFO  | Listening for connections at: stomp://ma-PC:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2019-02-26 10:30:13,955 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2019-02-26 10:30:13,959 | INFO  | Listening for connections at: mqtt://ma-PC:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2019-02-26 10:30:13,961 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2019-02-26 10:30:13,967 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2019-02-26 10:30:14,002 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2019-02-26 10:30:14,065 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@4b12483c{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2019-02-26 10:30:14,123 | INFO  | Listening for connections at ws://ma-PC:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2019-02-26 10:30:14,124 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2019-02-26 10:30:14,125 | INFO  | Apache ActiveMQ 5.15.8 (localhost, ID:ma-PC-13422-1551148213761-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2019-02-26 10:30:14,127 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2019-02-26 10:30:14,132 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: G:\ruanjian\develop\activemq_yuanma\activemq-parent-5.15.8\assembly\target\apache-activemq-5.15.8-bin\apache-activemq-5.15.8\bin\win64\..\..\data\kahadb only has 99465 mb of usable space. - resetting to maximum available disk space: 99465 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2019-02-26 10:30:14,693 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /admin | WrapperSimpleAppMain
+2019-02-26 10:30:15,190 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2019-02-26 10:30:15,191 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2019-02-26 10:30:15,248 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | WrapperSimpleAppMain
+2019-02-26 10:30:15,407 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | WrapperSimpleAppMain
+2019-02-26 10:30:15,624 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | WrapperSimpleAppMain

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>activemq-karaf-itest</name>
+	<comment>Performs Karaf compliance integration tests. NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
+	<projects>
+		<project>activemq-client</project>
+		<project>activemq-karaf</project>
+		<project>activemq-http</project>
+		<project>activemq-spring</project>
+		<project>activemq-broker</project>
+		<project>activemq-openwire-legacy</project>
+		<project>activemq-pool</project>
+		<project>activemq-jms-pool</project>
+		<project>activemq-stomp</project>
+		<project>activemq-mqtt</project>
+		<project>activemq-log4j-appender</project>
+		<project>activemq-console</project>
+		<project>activemq-kahadb-store</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+</projectDescription>

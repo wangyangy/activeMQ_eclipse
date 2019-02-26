@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>activemq-web-demo</name>
+	<comment>Web Demo for REST API and Streamlets support. NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
+	<projects>
+		<project>activemq-web</project>
+		<project>activemq-all</project>
+		<project>activemq-camel</project>
+		<project>activemq-spring</project>
+		<project>activemq-broker</project>
+		<project>activemq-client</project>
+		<project>activemq-openwire-legacy</project>
+		<project>activemq-pool</project>
+		<project>activemq-jms-pool</project>
+		<project>activemq-console</project>
+		<project>activemq-kahadb-store</project>
+		<project>activemq-stomp</project>
+		<project>activemq-amqp</project>
+		<project>activemq-mqtt</project>
+		<project>activemq-http</project>
+		<project>activemq-jdbc-store</project>
+		<project>activemq-leveldb-store</project>
+		<project>activemq-unit-tests</project>
+		<project>activemq-partition</project>
+		<project>activemq-runtime-config</project>
+		<project>activemq-jaas</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+</projectDescription>
