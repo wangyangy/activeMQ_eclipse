@@ -2208,3 +2208,129 @@ Caused by: java.io.IOException: Could not find factory class for resource: META-
 2019-02-26 17:02:19,583 [main           ] - INFO  Server                         - Started @6436ms
 2019-02-26 17:02:35,148 [qtp557023099-35] - WARN  HttpParser                     - Illegal character 0x0 in state=START for buffer HeapByteBuffer@47770951[p=1,l=337,c=16384,r=336]={\x00<<<\x00\x01M\x01ActiveMQ\x00\x00\x00\x0c\x01...ersion\t\x00\x065.15.8>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
 2019-02-26 17:02:35,152 [qtp557023099-35] - WARN  HttpParser                     - badMessage: 400 Illegal character 0x0 for HttpChannelOverHttp@4425e863{r=0,c=false,a=IDLE,uri=}
+2019-02-26 20:33:55,191 [main           ] - INFO  XBeanBrokerFactory$1           - Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@7dc7cbad: startup date [Tue Feb 26 20:33:55 CST 2019]; root of context hierarchy
+2019-02-26 20:33:55,291 [main           ] - INFO  XBeanXmlBeanDefinitionReader   - Loading XML bean definitions from class path resource [activemq.xml]
+2019-02-26 20:33:55,776 [main           ] - INFO  XBeanXmlBeanDefinitionReader   - Loading XML bean definitions from class path resource [jetty.xml]
+2019-02-26 20:33:56,291 [main           ] - INFO  BrokerService                  - Loaded the Bouncy Castle security provider.
+2019-02-26 20:33:56,439 [main           ] - INFO  BrokerService                  - Using Persistence Adapter: KahaDBPersistenceAdapter[G:\ruanjian\develop\activemq_yuanma\activemq-parent-5.15.8\activemq-console\..\.\data\kahadb]
+2019-02-26 20:33:56,602 [e Page Recovery] - INFO  PageFile                       - Page File: G:\ruanjian\develop\activemq_yuanma\activemq-parent-5.15.8\activemq-console\..\.\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+2019-02-26 20:33:56,620 [e Page Recovery] - INFO  PageFile                       - Page File: G:\ruanjian\develop\activemq_yuanma\activemq-parent-5.15.8\activemq-console\..\.\data\kahadb\db.data. Recovered pageFile free list of size: 0
+2019-02-26 20:33:56,627 [main           ] - INFO  MessageDatabase                - KahaDB is version 6
+2019-02-26 20:33:56,755 [main           ] - INFO  PListStoreImpl                 - PListStore:[G:\ruanjian\develop\activemq_yuanma\activemq-parent-5.15.8\activemq-console\..\.\data\localhost\tmp_storage] started
+2019-02-26 20:33:56,901 [main           ] - INFO  BrokerService                  - Apache ActiveMQ 5.15.8 (localhost, ID:ma-PC-10848-1551184436772-0:1) is starting
+2019-02-26 20:33:56,985 [main           ] - INFO  TransportServerThreadSupport   - Listening for connections at: tcp://ma-PC:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2019-02-26 20:33:56,985 [main           ] - INFO  TransportConnector             - Connector openwire started
+2019-02-26 20:33:56,991 [main           ] - INFO  TransportServerThreadSupport   - Listening for connections at: amqp://ma-PC:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2019-02-26 20:33:56,991 [main           ] - INFO  TransportConnector             - Connector amqp started
+2019-02-26 20:33:56,996 [main           ] - INFO  TransportServerThreadSupport   - Listening for connections at: stomp://ma-PC:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2019-02-26 20:33:56,997 [main           ] - INFO  TransportConnector             - Connector stomp started
+2019-02-26 20:33:57,002 [main           ] - INFO  TransportServerThreadSupport   - Listening for connections at: mqtt://ma-PC:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2019-02-26 20:33:57,002 [main           ] - INFO  TransportConnector             - Connector mqtt started
+2019-02-26 20:33:57,010 [main           ] - INFO  WebTransportServerSupport      - Starting Jetty server
+2019-02-26 20:33:57,024 [main           ] - INFO  log                            - Logging initialized @2428ms
+2019-02-26 20:33:57,057 [main           ] - INFO  WebTransportServerSupport      - Creating Jetty connector
+2019-02-26 20:33:57,099 [main           ] - INFO  Server                         - jetty-9.2.25.v20180606
+2019-02-26 20:33:57,132 [main           ] - WARN  SecurityHandler                - ServletContext@o.e.j.s.ServletContextHandler@638ef7ed{/,null,STARTING} has uncovered http methods for path: /
+2019-02-26 20:33:57,169 [main           ] - INFO  ContextHandler                 - Started o.e.j.s.ServletContextHandler@638ef7ed{/,null,AVAILABLE}
+2019-02-26 20:33:57,399 [main           ] - INFO  ServerConnector                - Started ServerConnector@2b175c00{HTTP/1.1}{0.0.0.0:61614}
+2019-02-26 20:33:57,401 [main           ] - INFO  Server                         - Started @2805ms
+2019-02-26 20:33:57,404 [main           ] - INFO  WSTransportServer              - Listening for connections at ws://ma-PC:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2019-02-26 20:33:57,404 [main           ] - INFO  TransportConnector             - Connector ws started
+2019-02-26 20:33:57,404 [main           ] - INFO  BrokerService                  - Apache ActiveMQ 5.15.8 (localhost, ID:ma-PC-10848-1551184436772-0:1) started
+2019-02-26 20:33:57,405 [main           ] - INFO  BrokerService                  - For help or more information please see: http://activemq.apache.org
+2019-02-26 20:33:57,408 [main           ] - WARN  BrokerService                  - Store limit is 102400 mb (current store usage is 0 mb). The data directory: G:\ruanjian\develop\activemq_yuanma\activemq-parent-5.15.8\activemq-console\..\.\data\kahadb only has 98191 mb of usable space. - resetting to maximum available disk space: 98191 mb
+2019-02-26 20:33:57,707 [main           ] - INFO  Server                         - jetty-9.2.25.v20180606
+2019-02-26 20:33:58,025 [main           ] - INFO  /admin                         - No Spring WebApplicationInitializer types detected on classpath
+2019-02-26 20:33:58,523 [main           ] - INFO  XmlWebApplicationContext       - Refreshing Root WebApplicationContext: startup date [Tue Feb 26 20:33:58 CST 2019]; root of context hierarchy
+2019-02-26 20:33:58,529 [main           ] - INFO  XmlBeanDefinitionReader        - Loading XML bean definitions from ServletContext resource [/WEB-INF/webconsole-embedded.xml]
+2019-02-26 20:33:58,543 [main           ] - INFO  XmlBeanDefinitionReader        - Loading XML bean definitions from ServletContext resource [/WEB-INF/webconsole-query.xml]
+2019-02-26 20:33:58,615 [main           ] - INFO  WebConsoleStarter              - ActiveMQ WebConsole available at http://0.0.0.0:8161/
+2019-02-26 20:33:58,615 [main           ] - INFO  WebConsoleStarter              - ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+2019-02-26 20:33:58,803 [main           ] - INFO  /admin                         - Initializing Spring FrameworkServlet 'dispatcher'
+2019-02-26 20:33:58,820 [main           ] - INFO  DispatcherServlet              - FrameworkServlet 'dispatcher': initialization started
+2019-02-26 20:33:58,826 [main           ] - INFO  XmlWebApplicationContext       - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Tue Feb 26 20:33:58 CST 2019]; parent: Root WebApplicationContext
+2019-02-26 20:33:58,827 [main           ] - INFO  XmlBeanDefinitionReader        - Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2019-02-26 20:33:58,873 [main           ] - INFO  ndingBeanNameUrlHandlerMapping - Mapped URL path [/createDestination.action] onto handler '/createDestination.action'
+2019-02-26 20:33:58,874 [main           ] - INFO  ndingBeanNameUrlHandlerMapping - Mapped URL path [/deleteDestination.action] onto handler '/deleteDestination.action'
+2019-02-26 20:33:58,875 [main           ] - INFO  ndingBeanNameUrlHandlerMapping - Mapped URL path [/createSubscriber.action] onto handler '/createSubscriber.action'
+2019-02-26 20:33:58,876 [main           ] - INFO  ndingBeanNameUrlHandlerMapping - Mapped URL path [/deleteSubscriber.action] onto handler '/deleteSubscriber.action'
+2019-02-26 20:33:58,877 [main           ] - INFO  ndingBeanNameUrlHandlerMapping - Mapped URL path [/sendMessage.action] onto handler '/sendMessage.action'
+2019-02-26 20:33:58,877 [main           ] - INFO  ndingBeanNameUrlHandlerMapping - Mapped URL path [/purgeDestination.action] onto handler '/purgeDestination.action'
+2019-02-26 20:33:58,878 [main           ] - INFO  ndingBeanNameUrlHandlerMapping - Mapped URL path [/deleteMessage.action] onto handler '/deleteMessage.action'
+2019-02-26 20:33:58,879 [main           ] - INFO  ndingBeanNameUrlHandlerMapping - Mapped URL path [/copyMessage.action] onto handler '/copyMessage.action'
+2019-02-26 20:33:58,880 [main           ] - INFO  ndingBeanNameUrlHandlerMapping - Mapped URL path [/moveMessage.action] onto handler '/moveMessage.action'
+2019-02-26 20:33:58,881 [main           ] - INFO  ndingBeanNameUrlHandlerMapping - Mapped URL path [/deleteJob.action] onto handler '/deleteJob.action'
+2019-02-26 20:33:58,882 [main           ] - INFO  ndingBeanNameUrlHandlerMapping - Mapped URL path [/retryMessage.action] onto handler '/retryMessage.action'
+2019-02-26 20:33:58,926 [main           ] - INFO  DispatcherServlet              - FrameworkServlet 'dispatcher': initialization completed in 105 ms
+2019-02-26 20:33:58,927 [main           ] - INFO  ContextHandler                 - Started o.e.j.w.WebAppContext@4acb2510{/admin,file:/G:/ruanjian/develop/activemq_yuanma/activemq-parent-5.15.8/webapps/admin/,AVAILABLE}
+2019-02-26 20:33:58,930 [main           ] - INFO  WebAppContext                  - ActiveMQ Console at http://ServerConnector@7942a854{HTTP/1.1}{0.0.0.0:8161}/admin
+2019-02-26 20:33:58,988 [main           ] - INFO  /api                           - No Spring WebApplicationInitializer types detected on classpath
+2019-02-26 20:33:59,335 [main           ] - INFO  /api                           - jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+2019-02-26 20:33:59,419 [main           ] - INFO  ContextHandler                 - Started o.e.j.w.WebAppContext@44bd4b0a{/api,file:/G:/ruanjian/develop/activemq_yuanma/activemq-parent-5.15.8/webapps/api/,AVAILABLE}
+2019-02-26 20:33:59,422 [main           ] - INFO  WebAppContext                  - Apache ActiveMQ REST API at http://ServerConnector@7942a854{HTTP/1.1}{0.0.0.0:8161}/api
+2019-02-26 20:33:59,426 [main           ] - INFO  ServerConnector                - Started ServerConnector@7942a854{HTTP/1.1}{0.0.0.0:8161}
+2019-02-26 20:33:59,428 [main           ] - INFO  Server                         - Started @4831ms
+2019-02-26 20:35:06,931 [0.1:10880@61616] - WARN  Transport                      - Transport Connection to: tcp://127.0.0.1:10880 failed: java.net.SocketException: Connection reset
+2019-02-26 20:37:32,722 [main           ] - INFO  XBeanBrokerFactory$1           - Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@7dc7cbad: startup date [Tue Feb 26 20:37:32 CST 2019]; root of context hierarchy
+2019-02-26 20:37:32,836 [main           ] - INFO  XBeanXmlBeanDefinitionReader   - Loading XML bean definitions from class path resource [activemq.xml]
+2019-02-26 20:37:33,244 [main           ] - INFO  XBeanXmlBeanDefinitionReader   - Loading XML bean definitions from class path resource [jetty.xml]
+2019-02-26 20:37:33,752 [main           ] - INFO  BrokerService                  - Loaded the Bouncy Castle security provider.
+2019-02-26 20:37:33,903 [main           ] - INFO  BrokerService                  - Using Persistence Adapter: KahaDBPersistenceAdapter[G:\ruanjian\develop\activemq_yuanma\activemq-parent-5.15.8\activemq-console\..\.\data\kahadb]
+2019-02-26 20:37:34,030 [e Page Recovery] - INFO  PageFile                       - Page File: G:\ruanjian\develop\activemq_yuanma\activemq-parent-5.15.8\activemq-console\..\.\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+2019-02-26 20:37:34,035 [e Page Recovery] - INFO  PageFile                       - Page File: G:\ruanjian\develop\activemq_yuanma\activemq-parent-5.15.8\activemq-console\..\.\data\kahadb\db.data. Recovered pageFile free list of size: 0
+2019-02-26 20:37:34,037 [main           ] - INFO  MessageDatabase                - KahaDB is version 6
+2019-02-26 20:37:34,150 [main           ] - INFO  PListStoreImpl                 - PListStore:[G:\ruanjian\develop\activemq_yuanma\activemq-parent-5.15.8\activemq-console\..\.\data\localhost\tmp_storage] started
+2019-02-26 20:37:34,307 [main           ] - INFO  BrokerService                  - Apache ActiveMQ 5.15.8 (localhost, ID:ma-PC-10898-1551184654166-0:1) is starting
+2019-02-26 20:37:34,384 [main           ] - INFO  TransportServerThreadSupport   - Listening for connections at: tcp://ma-PC:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2019-02-26 20:37:34,384 [main           ] - INFO  TransportConnector             - Connector openwire started
+2019-02-26 20:37:34,389 [main           ] - INFO  TransportServerThreadSupport   - Listening for connections at: amqp://ma-PC:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2019-02-26 20:37:34,389 [main           ] - INFO  TransportConnector             - Connector amqp started
+2019-02-26 20:37:34,394 [main           ] - INFO  TransportServerThreadSupport   - Listening for connections at: stomp://ma-PC:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2019-02-26 20:37:34,394 [main           ] - INFO  TransportConnector             - Connector stomp started
+2019-02-26 20:37:34,399 [main           ] - INFO  TransportServerThreadSupport   - Listening for connections at: mqtt://ma-PC:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2019-02-26 20:37:34,399 [main           ] - INFO  TransportConnector             - Connector mqtt started
+2019-02-26 20:37:34,406 [main           ] - INFO  WebTransportServerSupport      - Starting Jetty server
+2019-02-26 20:37:34,422 [main           ] - INFO  log                            - Logging initialized @2271ms
+2019-02-26 20:37:34,455 [main           ] - INFO  WebTransportServerSupport      - Creating Jetty connector
+2019-02-26 20:37:34,495 [main           ] - INFO  Server                         - jetty-9.2.25.v20180606
+2019-02-26 20:37:34,527 [main           ] - WARN  SecurityHandler                - ServletContext@o.e.j.s.ServletContextHandler@638ef7ed{/,null,STARTING} has uncovered http methods for path: /
+2019-02-26 20:37:34,565 [main           ] - INFO  ContextHandler                 - Started o.e.j.s.ServletContextHandler@638ef7ed{/,null,AVAILABLE}
+2019-02-26 20:37:34,806 [main           ] - INFO  ServerConnector                - Started ServerConnector@2b175c00{HTTP/1.1}{0.0.0.0:61614}
+2019-02-26 20:37:34,809 [main           ] - INFO  Server                         - Started @2658ms
+2019-02-26 20:37:34,811 [main           ] - INFO  WSTransportServer              - Listening for connections at ws://ma-PC:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2019-02-26 20:37:34,812 [main           ] - INFO  TransportConnector             - Connector ws started
+2019-02-26 20:37:34,812 [main           ] - INFO  BrokerService                  - Apache ActiveMQ 5.15.8 (localhost, ID:ma-PC-10898-1551184654166-0:1) started
+2019-02-26 20:37:34,812 [main           ] - INFO  BrokerService                  - For help or more information please see: http://activemq.apache.org
+2019-02-26 20:37:34,816 [main           ] - WARN  BrokerService                  - Store limit is 102400 mb (current store usage is 0 mb). The data directory: G:\ruanjian\develop\activemq_yuanma\activemq-parent-5.15.8\activemq-console\..\.\data\kahadb only has 98192 mb of usable space. - resetting to maximum available disk space: 98192 mb
+2019-02-26 20:37:35,111 [main           ] - INFO  Server                         - jetty-9.2.25.v20180606
+2019-02-26 20:37:35,451 [main           ] - INFO  /admin                         - No Spring WebApplicationInitializer types detected on classpath
+2019-02-26 20:37:35,944 [main           ] - INFO  XmlWebApplicationContext       - Refreshing Root WebApplicationContext: startup date [Tue Feb 26 20:37:35 CST 2019]; root of context hierarchy
+2019-02-26 20:37:35,950 [main           ] - INFO  XmlBeanDefinitionReader        - Loading XML bean definitions from ServletContext resource [/WEB-INF/webconsole-embedded.xml]
+2019-02-26 20:37:35,965 [main           ] - INFO  XmlBeanDefinitionReader        - Loading XML bean definitions from ServletContext resource [/WEB-INF/webconsole-query.xml]
+2019-02-26 20:37:36,044 [main           ] - INFO  WebConsoleStarter              - ActiveMQ WebConsole available at http://0.0.0.0:8161/
+2019-02-26 20:37:36,044 [main           ] - INFO  WebConsoleStarter              - ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+2019-02-26 20:37:36,237 [main           ] - INFO  /admin                         - Initializing Spring FrameworkServlet 'dispatcher'
+2019-02-26 20:37:36,255 [main           ] - INFO  DispatcherServlet              - FrameworkServlet 'dispatcher': initialization started
+2019-02-26 20:37:36,261 [main           ] - INFO  XmlWebApplicationContext       - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Tue Feb 26 20:37:36 CST 2019]; parent: Root WebApplicationContext
+2019-02-26 20:37:36,263 [main           ] - INFO  XmlBeanDefinitionReader        - Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2019-02-26 20:37:36,310 [main           ] - INFO  ndingBeanNameUrlHandlerMapping - Mapped URL path [/createDestination.action] onto handler '/createDestination.action'
+2019-02-26 20:37:36,312 [main           ] - INFO  ndingBeanNameUrlHandlerMapping - Mapped URL path [/deleteDestination.action] onto handler '/deleteDestination.action'
+2019-02-26 20:37:36,312 [main           ] - INFO  ndingBeanNameUrlHandlerMapping - Mapped URL path [/createSubscriber.action] onto handler '/createSubscriber.action'
+2019-02-26 20:37:36,313 [main           ] - INFO  ndingBeanNameUrlHandlerMapping - Mapped URL path [/deleteSubscriber.action] onto handler '/deleteSubscriber.action'
+2019-02-26 20:37:36,314 [main           ] - INFO  ndingBeanNameUrlHandlerMapping - Mapped URL path [/sendMessage.action] onto handler '/sendMessage.action'
+2019-02-26 20:37:36,315 [main           ] - INFO  ndingBeanNameUrlHandlerMapping - Mapped URL path [/purgeDestination.action] onto handler '/purgeDestination.action'
+2019-02-26 20:37:36,316 [main           ] - INFO  ndingBeanNameUrlHandlerMapping - Mapped URL path [/deleteMessage.action] onto handler '/deleteMessage.action'
+2019-02-26 20:37:36,317 [main           ] - INFO  ndingBeanNameUrlHandlerMapping - Mapped URL path [/copyMessage.action] onto handler '/copyMessage.action'
+2019-02-26 20:37:36,318 [main           ] - INFO  ndingBeanNameUrlHandlerMapping - Mapped URL path [/moveMessage.action] onto handler '/moveMessage.action'
+2019-02-26 20:37:36,319 [main           ] - INFO  ndingBeanNameUrlHandlerMapping - Mapped URL path [/deleteJob.action] onto handler '/deleteJob.action'
+2019-02-26 20:37:36,319 [main           ] - INFO  ndingBeanNameUrlHandlerMapping - Mapped URL path [/retryMessage.action] onto handler '/retryMessage.action'
+2019-02-26 20:37:36,365 [main           ] - INFO  DispatcherServlet              - FrameworkServlet 'dispatcher': initialization completed in 109 ms
+2019-02-26 20:37:36,366 [main           ] - INFO  ContextHandler                 - Started o.e.j.w.WebAppContext@4acb2510{/admin,file:/G:/ruanjian/develop/activemq_yuanma/activemq-parent-5.15.8/webapps/admin/,AVAILABLE}
+2019-02-26 20:37:36,368 [main           ] - INFO  WebAppContext                  - ActiveMQ Console at http://ServerConnector@7942a854{HTTP/1.1}{0.0.0.0:8161}/admin
+2019-02-26 20:37:36,420 [main           ] - INFO  /api                           - No Spring WebApplicationInitializer types detected on classpath
+2019-02-26 20:37:36,766 [main           ] - INFO  /api                           - jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+2019-02-26 20:37:36,851 [main           ] - INFO  ContextHandler                 - Started o.e.j.w.WebAppContext@44bd4b0a{/api,file:/G:/ruanjian/develop/activemq_yuanma/activemq-parent-5.15.8/webapps/api/,AVAILABLE}
+2019-02-26 20:37:36,854 [main           ] - INFO  WebAppContext                  - Apache ActiveMQ REST API at http://ServerConnector@7942a854{HTTP/1.1}{0.0.0.0:8161}/api
+2019-02-26 20:37:36,857 [main           ] - INFO  ServerConnector                - Started ServerConnector@7942a854{HTTP/1.1}{0.0.0.0:8161}
+2019-02-26 20:37:36,860 [main           ] - INFO  Server                         - Started @4710ms
+2019-02-26 20:40:08,301 [0.1:10932@61616] - WARN  Transport                      - Transport Connection to: tcp://127.0.0.1:10932 failed: java.net.SocketException: Connection reset
