@@ -1,0 +1,10 @@
+package cn.hit.weihai.sendmessage;
+
+public class MessageSender {
+
+	public static int sendTimes = 19;
+	
+	public static String path = "tcp://localhost:8161";
+	//·¢ËÍÄ¿±ê
+	public static String destination = "";
+}

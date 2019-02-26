@@ -1,0 +1,27 @@
+package cn.hit.weihai.sendmessage;
+
+import javax.jms.JMSException;
+import javax.jms.MessageProducer;
+import javax.jms.Session;
+import javax.jms.TextMessage;
+
+public class MessageSender {
+	
+	//消息发送次数
+	public static int sendTimes = 19;
+	//tcp连接地址
+	public static String path = "tcp://localhost:8161";
+	//发送目标
+	public static String destination = "sagedragon.mq.queue";
+	
+	public static void sendMessage(Session session,MessageProducer producer) throws JMSException {
+		
+		for(int i=0;i<sendTimes;i++) {
+			String message = "发送消息第"+(i+1)+"次";
+			TextMessage textMessage = session.createTextMessage(message);
+			System.out.println(message);
+			producer.send(textMessage);
+		}
+	}
+	
+}

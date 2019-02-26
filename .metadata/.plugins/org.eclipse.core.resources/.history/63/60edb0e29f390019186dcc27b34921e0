@@ -1,0 +1,7 @@
+package cn.hit.weihai.sendmessage;
+
+public class MessageSender {
+
+	public static int sendTimes = 19;
+	
+}
